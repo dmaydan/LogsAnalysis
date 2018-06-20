@@ -43,6 +43,6 @@ For this project, I used a Linux-based VM that gave me access to PostreSQL along
 <h3>Install psycopg2</h3>
 psycopg2 is the python library that allows python to work with PostreSQL. Simply run the command <code>pip3 install psycopg2</code>
 <h2>Run</h2>
-Everything is setup now. All you have to do is run <code>loganalysis.py</code> with python3: <code>python3 loganalysis.py</code>
+Everything is setup now. All you have to do is run <code>logsanalysis.py</code> with python3: <code>python3 logsanalysis.py</code>
 
  
