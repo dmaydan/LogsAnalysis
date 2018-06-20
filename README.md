@@ -6,18 +6,18 @@ This is my submission for Udacity's Full Stack Web Developer Nanodegree's Logs A
   <li>On which days did more than 1% of requests lead to errors?</li>
 </ol>
 <h2>Sample Output</h2>
-<blockquote>
-TOP THREE ARTICLES BY PAGE VIEWS<br/>
-(1) "Candidate is jerk, alleges rival" with 338647 views<br/>
-(2) "Bears love berries, alleges bear" with 253801 views<br/>
-(3) "Bad things gone, say good people" with 170098 views<br/>
-TOP THREE AUTHORS BY PAGE VIEWS<br/>
-(1) "Ursula La Multa" with 507594 views<br/>
-(2) "Rudolf von Treppenwitz" with 423457 views<br/>
-(3) "Anonymous Contributor" with 170098 views<br/>
-DAYS WITH MORE THAN 1% ERRORS<br/>
-July 17, 2016 -- 2.3% errors<br/>
-</blockquote>
+<pre><code>
+TOP THREE ARTICLES BY PAGE VIEWS
+(1) "Candidate is jerk, alleges rival" with 338647 views
+(2) "Bears love berries, alleges bear" with 253801 views
+(3) "Bad things gone, say good people" with 170098 views
+TOP THREE AUTHORS BY PAGE VIEWS
+(1) "Ursula La Multa" with 507594 views
+(2) "Rudolf von Treppenwitz" with 423457 views
+(3) "Anonymous Contributor" with 170098 views
+DAYS WITH MORE THAN 1% ERRORS
+July 17, 2016 -- 2.3% errors
+</code></pre>
 <h2>Setup</h2>
 For this project, I used a Linux-based VM that gave me access to PostreSQL along with other software necessary for the project. 
 <h3>VM Setup</h3>
