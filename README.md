@@ -5,6 +5,19 @@ This is my submission for Udacity's Full Stack Web Developer Nanodegree's Logs A
   <li>Who are the most popular article authors of all time?</li>
   <li>On which days did more than 1% of requests lead to errors?</li>
 </ol>
+<h2>Sample Output</h2>
+<blockquote>
+TOP THREE ARTICLES BY PAGE VIEWS<br/>
+(1) "Candidate is jerk, alleges rival" with 338647 views<br/>
+(2) "Bears love berries, alleges bear" with 253801 views<br/>
+(3) "Bad things gone, say good people" with 170098 views<br/>
+TOP THREE AUTHORS BY PAGE VIEWS<br/>
+(1) "Ursula La Multa" with 507594 views<br/>
+(2) "Rudolf von Treppenwitz" with 423457 views<br/>
+(3) "Anonymous Contributor" with 170098 views<br/>
+DAYS WITH MORE THAN 1% ERRORS<br/>
+July 17, 2016 -- 2.3% errors<br/>
+</blockquote>
 <h2>Setup</h2>
 For this project, I used a Linux-based VM that gave me access to PostreSQL along with other software necessary for the project. 
 <h3>VM Setup</h3>
@@ -31,17 +44,5 @@ For this project, I used a Linux-based VM that gave me access to PostreSQL along
 psycopg2 is the python library that allows python to work with PostreSQL. Simply run the command <code>pip3 install psycopg2</code>
 <h2>Run</h2>
 Everything is setup now. All you have to do is run <code>loganalysis.py</code> with python3: <code>python3 loganalysis.py</code>
-<h2>Sample Output</h2>
-<blockquote>
-TOP THREE ARTICLES BY PAGE VIEWS<br/>
-(1) "Candidate is jerk, alleges rival" with 338647 views<br/>
-(2) "Bears love berries, alleges bear" with 253801 views<br/>
-(3) "Bad things gone, say good people" with 170098 views<br/>
-TOP THREE AUTHORS BY PAGE VIEWS<br/>
-(1) "Ursula La Multa" with 507594 views<br/>
-(2) "Rudolf von Treppenwitz" with 423457 views<br/>
-(3) "Anonymous Contributor" with 170098 views<br/>
-DAYS WITH MORE THAN 1% ERRORS<br/>
-7/17/2016 -- 2.3% errors<br/>
-</blockquote>
+
  
