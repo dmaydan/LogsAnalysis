@@ -32,7 +32,8 @@ psycopg2 is the python library that allows python to work with PostreSQL. Simply
 <h2>Run</h2>
 Everything is setup now. All you have to do is run <code>loganalysis.py</code> with python3: <code>python3 loganalysis.py</code>
 <h2>Sample Output</h2>
-<code>TOP THREE ARTICLES BY PAGE VIEWS
+```python
+TOP THREE ARTICLES BY PAGE VIEWS
 (1) "Candidate is jerk, alleges rival" with 338647 views
 (2) "Bears love berries, alleges bear" with 253801 views
 (3) "Bad things gone, say good people" with 170098 views
@@ -41,4 +42,5 @@ TOP THREE AUTHORS BY PAGE VIEWS
 (2) "Rudolf von Treppenwitz" with 423457 views
 (3) "Anonymous Contributor" with 170098 views
 DAYS WITH MORE THAN 1% ERRORS
-7/17/2016 -- 2.3% errors</code>
+7/17/2016 -- 2.3% errors
+```
